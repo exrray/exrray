@@ -1,0 +1,30 @@
+{
+    "name": "exrray/exrray",
+    "type": "library",
+    "description": "(C)oncept-Labs Extended Array",
+    "keywords": ["php","array", "extended"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Viktor Halytskyi",
+            "email": "concept.galitsky@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Exrray\\": "src/"
+        }
+    },
+    "require-dev": {
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "suggest": {
+	"jsonyx/jsonyx": "Extended JSON parser with plugins. Use context variables, includes, .env, imports and custom plugins"
+    }
+}
